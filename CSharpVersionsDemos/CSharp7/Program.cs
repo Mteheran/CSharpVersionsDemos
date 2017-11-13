@@ -17,6 +17,18 @@ namespace CSharpVersionsDemos
             Console.WriteLine("-----------------------------------------------------------");
 
 
+
+            Console.WriteLine("---------------------- Local Functions -----------------");
+           
+            string HelloWorld()
+            {
+                return "Hello World from a local function";
+            }
+
+            Console.WriteLine(HelloWorld());
+            Console.WriteLine("-----------------------------------------------------------");
+
+
             Console.Read();
         }
     }
