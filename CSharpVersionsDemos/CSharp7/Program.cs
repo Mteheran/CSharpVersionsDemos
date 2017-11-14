@@ -15,7 +15,7 @@ namespace CSharpVersionsDemos
 
 
             Console.WriteLine("---------------------- Local Functions -----------------");
-           
+
             string HelloWorld()
             {
                 return "Hello World from a local function";
@@ -37,9 +37,21 @@ namespace CSharpVersionsDemos
                 case Hello2 h2:
                     Console.WriteLine(h2.HelloWorld);
                     break;
-            }           
+            }
             Console.WriteLine("-----------------------------------------------------------");
 
+
+
+            Console.WriteLine("---------------------- Ref Locals and Returns -----------------");
+            int[] arrayInt = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            ref var referencevar = ref RefLocalsandReturns.FindFromArray(arrayInt);
+            Console.WriteLine(referencevar);
+
+            referencevar = 1;
+
+            Console.WriteLine(string.Join(",",arrayInt));
+            Console.WriteLine("-----------------------------------------------------------");
 
             Console.Read();
         }
