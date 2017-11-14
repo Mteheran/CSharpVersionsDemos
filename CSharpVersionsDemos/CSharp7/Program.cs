@@ -25,6 +25,22 @@ namespace CSharpVersionsDemos
             Console.WriteLine("-----------------------------------------------------------");
 
 
+
+            Console.WriteLine("---------------------- Pattern Matching -----------------");
+            var randomtype = PatternMatching.GetPattern();
+
+            switch (randomtype)
+            {
+                case Hello1 h1:
+                    Console.WriteLine(h1.HelloWorld);
+                    break;
+                case Hello2 h2:
+                    Console.WriteLine(h2.HelloWorld);
+                    break;
+            }           
+            Console.WriteLine("-----------------------------------------------------------");
+
+
             Console.Read();
         }
     }
