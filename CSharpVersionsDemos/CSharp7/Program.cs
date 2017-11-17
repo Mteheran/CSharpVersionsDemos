@@ -51,7 +51,15 @@ namespace CSharpVersionsDemos
             referencevar = 1;
 
             Console.WriteLine(string.Join(",",arrayInt));
-            Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------");         
+
+
+
+            Console.WriteLine("---------------------- Digital Separator -----------------");
+            Console.WriteLine(123_45_548.23_456);
+
+
+
 
             Console.Read();
         }
