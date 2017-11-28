@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Configuration;
+using System.Threading.Tasks;
+using System.Threading.Tasks;
 
 namespace CSharpVersionsDemos
 {
@@ -43,8 +46,9 @@ namespace CSharpVersionsDemos
 
             referencevar = 1;
 
-            Console.WriteLine(string.Join(",",arrayInt));
-            Console.WriteLine("-----------------------------------------------------------");   
+            Console.WriteLine(string.Join(",", arrayInt));
+
+            Console.WriteLine("-----------------------------------------------------------");
             Console.WriteLine("---------------------- Digital Separator -----------------");
             Console.WriteLine(123_45_548.23_456);
 
@@ -63,10 +67,20 @@ namespace CSharpVersionsDemos
             //creating a tuple from 2 vars
             int value1 = 1;
             string tittle1 = "value";
-            var tuple1 = (value:value1, tittle:tittle1);
+            var tuple1 = (value: value1, tittle: tittle1);
             Console.WriteLine("{0} - {1}", tuple1.tittle, tuple1.value);
 
+            Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine("---------------------- Throw expressions -----------------");
+
+
+            object expressionTest = 0;
+            var  loadedConfig =  expressionTest ==null ?
+                throw new InvalidOperationException("Null Detected") : "Hello Expression";
+
+            Console.WriteLine(loadedConfig);
             Console.Read();
-        }
+
+        }        
     }
 }
