@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Configuration;
 using System.Threading.Tasks;
-using System.Threading.Tasks;
 
 namespace CSharpVersionsDemos
 {
