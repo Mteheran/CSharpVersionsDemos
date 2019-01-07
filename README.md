@@ -1,6 +1,5 @@
 # CSharpVersionsDemos
-Demos about the features for each new C# version 
-
+Demos about the features for each new C# version
 
 C# 1.0 released with .NET 1.0 and VS2002 (January 2002)
 
@@ -19,3 +18,9 @@ C# 6.0 released with .NET 4.6 and VS2015 (July 2015). Implemented by Roslyn. Fea
 C# 7.0 released with .NET 4.7 and VS2017 (March 2017) Major new features: tuples, ref locals and ref return, pattern matching (including pattern-based switch statements), inline out parameter declarations, local functions, binary literals, digit separators, and arbitrary async returns.
 
 C# 7.1 released with .NET 4.7 and VS2017 v15.3 (August 2017) Minor new features: async main, tuple member name inference, default expression, pattern matching with generics.
+
+C# 7.2 released with .NET 4.7.1 and VS2017 v15.5 (November 2017) Minor new features: Reference semantics with value types, Leading underscores in numeric literals, private protected access modifier, Non-trailing named arguments
+
+C# 7.3 released with .NET 4.7.1 and VS2017 v15.7 (May 2018) Minor new features: Accessing fixed fields without pinning, Using initializers on stackalloc arrays, Using additional generic constraints, eassigning ref local variables, Using fixed statements with any type that supports a pattern
+
+C# 8.0 (Beta) released with .NET 4.7.2 and VS2019 (December 2018) new features: Nullable reference types, Ranges and indices
