@@ -1,4 +1,4 @@
-# CSharpVersionsDemos
+# CSharp Features Demos by Version
 Demos about the features for each new C# version
 
 C# 1.0 released with .NET 1.0 and VS2002 (January 2002)
